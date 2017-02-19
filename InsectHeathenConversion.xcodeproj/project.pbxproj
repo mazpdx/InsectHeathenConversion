@@ -103,6 +103,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B630C4201E5A64F0002D9185 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CB6FD6FE1E2D7C5E00FCFF0B /* RockLarge1.png */,
+				CB6FD6FC1E2D7C0E00FCFF0B /* BugLeft.png */,
+				CB6FD6FA1E2D7BE500FCFF0B /* BugDown.png */,
+				CB6FD6F81E2D7BB500FCFF0B /* DirtE.png */,
+				CB6FD6F61E2D7B7F00FCFF0B /* BugRight.png */,
+				CB6FD6F41E2D7B4E00FCFF0B /* Bug.png */,
+				CB6FD6F21E2D7B0E00FCFF0B /* Dead1.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		CB6FD6AA1E2D427400FCFF0B = {
 			isa = PBXGroup;
 			children = (
@@ -154,18 +168,12 @@
 				CB6FD70E1E2E816000FCFF0B /* Grid.m */,
 				CB6FD70B1E2E7F5000FCFF0B /* Map.m */,
 				CB6FD6ED1E2D64BD00FCFF0B /* Religion.h */,
-				CB6FD6FE1E2D7C5E00FCFF0B /* RockLarge1.png */,
-				CB6FD6FC1E2D7C0E00FCFF0B /* BugLeft.png */,
-				CB6FD6FA1E2D7BE500FCFF0B /* BugDown.png */,
-				CB6FD6F81E2D7BB500FCFF0B /* DirtE.png */,
-				CB6FD6F61E2D7B7F00FCFF0B /* BugRight.png */,
-				CB6FD6F41E2D7B4E00FCFF0B /* Bug.png */,
-				CB6FD6F21E2D7B0E00FCFF0B /* Dead1.png */,
 				CB6FD6EE1E2D64BD00FCFF0B /* Religion.m */,
 				CB6FD6EB1E2D624600FCFF0B /* Beetle.m */,
 				CB6FD7061E2D87D700FCFF0B /* Application.xib */,
 				CB6FD7081E2D87F900FCFF0B /* MainView.xib */,
 				CB6FD6CE1E2D427400FCFF0B /* Images.xcassets */,
+				B630C4201E5A64F0002D9185 /* Images */,
 				CB6FD6BD1E2D427400FCFF0B /* Supporting Files */,
 			);
 			path = InsectHeathenConversion;

@@ -14,7 +14,10 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    NSString *who = aNotification.name;
+    NSApplication *app = aNotification.object;
+    NSWindow *mainWindow = app.mainWindow;
+    NSString *who = [mainWindow description];
+    
     NSLog(@"Hello World %@ !\n", who);
 }
 
