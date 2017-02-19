@@ -12,7 +12,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    NSLog(@"Hello World!\n");
 }
 
 @end
