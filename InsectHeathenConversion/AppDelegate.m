@@ -6,13 +6,16 @@
 //  Copyright (c) 2017 Rachel Zuhl2. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+#import <Foundation/NSNotification.h>
 #import "AppDelegate.h"
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    NSLog(@"Hello World!\n");
+    NSString *who = aNotification.name;
+    NSLog(@"Hello World %@ !\n", who);
 }
 
 @end
