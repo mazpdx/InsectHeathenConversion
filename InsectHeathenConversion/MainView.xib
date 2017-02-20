@@ -82,7 +82,7 @@
                 </imageView>
                 <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XUr-Gx-Awm">
                     <rect key="frame" x="624" y="536" width="53" height="53"/>
-                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" id="W7M-gt-r1j"/>
+                    <imageCell key="cell" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" id="W7M-gt-r1j"/>
                 </imageView>
                 <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d7s-Ec-fPb">
                     <rect key="frame" x="200" y="483" width="53" height="53"/>

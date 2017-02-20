@@ -14,9 +14,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    NSApplication *app = aNotification.object;
-    NSWindow *mainWindow = app.mainWindow;
-    NSString *who = [mainWindow description];
+    //NSApplication *app = aNotification.object;
+    //NSWindow *mainWindow = app.mainWindow;
+    NSString *who = [self.window description];
     
     NSLog(@"Hello World %@ !\n", who);
 }

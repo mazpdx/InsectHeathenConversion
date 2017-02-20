@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B630C43C1E5A7B81002D9185 /* ViewWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B630C43B1E5A7B81002D9185 /* ViewWindow.m */; };
 		CB6FD6B71E2D427400FCFF0B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6FD6B61E2D427400FCFF0B /* Cocoa.framework */; };
 		CB6FD6C11E2D427400FCFF0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB6FD6BF1E2D427400FCFF0B /* InfoPlist.strings */; };
 		CB6FD6C31E2D427400FCFF0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FD6C21E2D427400FCFF0B /* main.m */; };
@@ -44,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B630C43A1E5A77A6002D9185 /* ViewWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewWindow.h; sourceTree = "<group>"; };
+		B630C43B1E5A7B81002D9185 /* ViewWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewWindow.m; sourceTree = "<group>"; };
 		CB6FD6B31E2D427400FCFF0B /* InsectHeathenConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsectHeathenConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6FD6B61E2D427400FCFF0B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CB6FD6B91E2D427400FCFF0B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -161,17 +164,19 @@
 			children = (
 				CB6FD6C81E2D427400FCFF0B /* AppDelegate.h */,
 				CB6FD6C91E2D427400FCFF0B /* AppDelegate.m */,
-				CB6FD6CB1E2D427400FCFF0B /* MainMenu.xib */,
-				CB6FD6EA1E2D624600FCFF0B /* Beetle.h */,
-				CB6FD70A1E2E7F5000FCFF0B /* Map.h */,
+				B630C43A1E5A77A6002D9185 /* ViewWindow.h */,
 				CB6FD70D1E2E816000FCFF0B /* Grid.h */,
 				CB6FD70E1E2E816000FCFF0B /* Grid.m */,
+				CB6FD70A1E2E7F5000FCFF0B /* Map.h */,
 				CB6FD70B1E2E7F5000FCFF0B /* Map.m */,
 				CB6FD6ED1E2D64BD00FCFF0B /* Religion.h */,
 				CB6FD6EE1E2D64BD00FCFF0B /* Religion.m */,
+				CB6FD6EA1E2D624600FCFF0B /* Beetle.h */,
 				CB6FD6EB1E2D624600FCFF0B /* Beetle.m */,
 				CB6FD7061E2D87D700FCFF0B /* Application.xib */,
+				CB6FD6CB1E2D427400FCFF0B /* MainMenu.xib */,
 				CB6FD7081E2D87F900FCFF0B /* MainView.xib */,
+				B630C43B1E5A7B81002D9185 /* ViewWindow.m */,
 				CB6FD6CE1E2D427400FCFF0B /* Images.xcassets */,
 				B630C4201E5A64F0002D9185 /* Images */,
 				CB6FD6BD1E2D427400FCFF0B /* Supporting Files */,
@@ -317,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB6FD6EC1E2D624600FCFF0B /* Beetle.m in Sources */,
+				B630C43C1E5A7B81002D9185 /* ViewWindow.m in Sources */,
 				CB6FD70F1E2E816000FCFF0B /* Grid.m in Sources */,
 				CB6FD70C1E2E7F5000FCFF0B /* Map.m in Sources */,
 				CB6FD6CA1E2D427400FCFF0B /* AppDelegate.m in Sources */,
